@@ -1,8 +1,4 @@
 defmodule AwsCredentials.Client do
-  def create(config) when is_map(config) do
-    create(config[:region], config[:profile])
-  end
-
   def create(region, profile \\ nil) do
     result =
       System.user_home()
