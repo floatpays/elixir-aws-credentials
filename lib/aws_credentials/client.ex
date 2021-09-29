@@ -1,4 +1,11 @@
 defmodule AwsCredentials.Client do
+  def create() do
+    region = Application.get_env(:aws_credentials, :region)
+    profile = Application.get_env(:aws_credentials, :profile)
+
+    create(region, profile)
+  end
+
   def create(region, profile \\ nil) do
     result =
       System.user_home()
