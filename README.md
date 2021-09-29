@@ -1,6 +1,6 @@
-# AwsCredentials
+# AwsCredentials [ Experimental ]
 
-**TODO: Add description**
+## WARNING! THIS IS EXPERIMENTAL AND SHOULD NOT BE USED IN PRODUCTION
 
 ## Installation
 
