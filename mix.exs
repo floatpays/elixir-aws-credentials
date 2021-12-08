@@ -4,8 +4,8 @@ defmodule AwsCredentials.MixProject do
   def project do
     [
       app: :aws_credentials,
-      version: "0.1.0",
-      elixir: "~> 1.12",
+      version: "0.1.1",
+      elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
@@ -23,7 +23,7 @@ defmodule AwsCredentials.MixProject do
   defp deps do
     [
       {:hackney, "~> 1.17"},
-      {:aws, "~> 0.9.0"},
+      {:aws, "~> 0.10.0"},
       {:configparser_ex, "~> 4.0"},
       {:jason, "~> 1.2"}
     ]
