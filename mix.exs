@@ -22,8 +22,8 @@ defmodule AwsCredentials.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:hackney, "~> 1.17"},
-      {:aws, "~> 0.10.0"},
+      {:hackney, "~> 1.18"},
+      {:aws, "~> 0.11.0"},
       {:configparser_ex, "~> 4.0"},
       {:jason, "~> 1.2"}
     ]
