@@ -23,7 +23,7 @@ defmodule AwsCredentials.MixProject do
   defp deps do
     [
       {:hackney, "~> 1.18"},
-      {:aws, "~> 0.11.0"},
+      {:aws, "~> 0.12"},
       {:configparser_ex, "~> 4.0"},
       {:jason, "~> 1.2"}
     ]
